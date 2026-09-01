@@ -46,10 +46,10 @@ document.addEventListener("DOMContentLoaded", () => {
         activityCard.innerHTML = `
           <h4>${name}</h4>
           <p>${details.description}</p>
-          <p><strong>Schedule:</strong> ${details.schedule}</p>
-          <p><strong>Availability:</strong> ${spotsLeft} spots left</p>
+          <p><strong>Horário:</strong> ${details.schedule}</p>
+          <p><strong>Disponibilidade:</strong> ${spotsLeft} vagas restantes</p>
           <div class="participants-section">
-            <strong>Participants</strong>
+            <strong>Participantes</strong>
             <ul class="participants-list">${participants}</ul>
           </div>
         `;
